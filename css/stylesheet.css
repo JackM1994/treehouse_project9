@@ -6,9 +6,8 @@ a{
 }
 body{
     margin: auto 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
-
 .jumbotron-headline h1,
 .lead{
     margin-bottom: 20px;
