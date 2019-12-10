@@ -1,0 +1,455 @@
+/* =========================
+    Base Styles
+===========================*/
+a{
+    cursor: pointer;
+}
+body{
+    margin: auto 0;
+}
+
+.jumbotron-headline h1,
+.lead{
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 2px 2px #222;
+    
+}
+.jumbotron-headline h3{
+    text-align: center;
+    
+}
+.jumbotron-intro h3{
+    font-weight: 400;
+}
+.lead{
+    padding-bottom: 100px;
+    font-size: 1.8em;
+}
+
+.intro{
+    padding-top: 10px;
+    font-size: 1.8em;
+    font-weight: 300;
+   
+}
+/* About Page */
+.about{
+    padding-top: 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.a-intro{
+    padding-top: 10px;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 65px;
+}
+
+
+/*===============================
+    Layout Styles
+=================================*/
+
+.jumbotron-headline{
+    margin-top: 0;
+    margin-bottom: 0;
+    background: url('../images/background-image1.jpg') no-repeat left ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 300px;
+}
+
+.container-intro{
+    margin-top: 60px;
+    width: 80%;
+    margin-bottom: 100px;
+}
+#projects{
+    margin-top: 20px;
+    color: #000;
+    text-shadow: 0 2px 2px white;
+    
+}
+.projects{
+    margin-top: 10px;
+   }
+
+/* About Page */
+.jumbotron-about{
+    margin-top: 0;
+    margin-bottom: 0;
+    background: url('../images/edmonton.jpeg') no-repeat center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 300px;
+    color: white;
+}
+.display-3 {
+    padding-left: 20px;
+    text-shadow: 0 2px 2px #000;
+}
+.display-4{
+    text-align: center;
+}
+.jumbotron-feed{
+    background: lightgray;
+    padding-top: 65px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.instagram-feed{
+    margin: auto 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.insta{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 10px;
+   
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#instagram,
+#resume{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background: transparent;
+    width: 60%;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px 0;
+    border: 1px solid #157735;
+    border-radius: .5em;
+    align-items: center;
+}
+#instagram:hover{
+    transition: 2s,ease-in-out;
+    background: #fff;
+    color: #000;
+    text-shadow: none;
+}
+#resume:hover{
+    transition: 2s,ease-in-out;
+    background: lightgray;
+    color: #000;
+    text-shadow: none;
+}
+.end{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+/* Resume */
+.jumbotron-resume{
+    margin-top: 0;
+    margin-bottom: 0;
+    background: url('../images/background-image2.jpg') no-repeat center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 300px;
+    color: black;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron-resume h1{
+    text-shadow: 0 10px 10px #fff;
+}
+ul .it-skills {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .it-skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #0F114B;
+    color: white;
+    padding: 20px 25px;
+    margin: 2px;
+  }
+  
+  .it-skills li:nth-child(odd) {
+    background: #4B0F11;
+  }
+  .jumbotron-experience{
+      background: lightgray;
+      margin-top: 45px;
+      padding-top: 45px;
+  }
+  .work-experience{
+      text-align: left;
+      padding-left: 20px;
+  }
+  .ed{
+      padding-left: 20px;
+  }
+  .jumbotron-education h1{
+     padding-bottom: 45px;
+  }
+  
+/*===============================
+    Home Page Project 
+=================================*/
+.container-gallery{
+    background: lightgrey;
+}
+.projects{
+   text-align: center;
+   margin-bottom: 5px;
+  
+}
+.gallery{
+    position: relative;
+    line-height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+   
+}
+.gallery h4 {
+
+	font-size: 1.8em;
+	line-height: 1.25em;
+	margin-top: 1px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    text-shadow: 0 3px 3px rgb(109, 59, 59);
+}
+.gallery span {
+	font-size: 1.3em;
+	line-height: 1.4;
+    margin-top: 35px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 3px 3px rgb(109, 59, 59);
+   
+}
+
+.gallery img {
+     max-width: 100%;
+   
+    
+}
+
+#project-button{
+   color: #fff;
+   background: transparent;
+   width: 50%;
+   font-weight: 700;
+   display: block;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 20px 0;
+   border: 2px solid #fff;
+   border-radius: .5em;
+  
+}
+#project-button:hover{
+    transition: 2s,ease-in-out;
+    background: #fff;
+    color: #000;
+    text-shadow: none;
+}
+
+/* overlay */
+.overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, .5);
+}
+
+
+.overlay h4{
+    margin-top: 20px;
+}
+
+/*===============================
+  footer
+=================================*/
+.display-5{
+    padding-left: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+.social-media{
+    margin-top: 10px;
+    text-align: center;
+}
+.social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-media ul li {
+    display: inline-block;
+    
+    margin: auto 0;
+  }
+  
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .4;
+    transition: all .5s;
+  }
+  a.twitter {
+    background-image: url(../images/twitter\ copy.svg);
+  }
+  a.linkedin {
+    background-image: url(../images/linkedin\ copy.svg);
+  }
+  a.github {
+    background-image: url(../images/github\ copy.svg);
+  }
+  a.social:hover {
+    opacity: 1;
+  }
+  .clearfix {
+    clear: both;
+  }
+  
+
+
+/*===============================
+    Media Queries
+=================================*/
+@media (min-width: 769px){
+    .intro{
+        padding-left: 90px;
+        padding-right: 90px;
+        font-size: 2em;
+    }
+    .about{
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .a-intro{
+        padding-left:90px;
+        padding-right: 90px;
+        font-size: 2em;
+    }
+    .ed,
+    .work-experience{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    #projects{
+        margin-top: 5px;
+        padding-top: 20px;
+        color: #fff;
+        text-shadow: 0 2px 2px black;
+        
+    }
+    .container-gallery{
+        margin-top: 45px;
+        width: 100%;
+        background: url('../images/floor.jpg') no-repeat  ;	
+    }
+    .projects{
+      
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+    }
+    .gallery{
+      padding: 10px;
+      width: 350px;
+      height: 350px;
+      margin-top: 5px;
+
+    }
+    .overlay{
+        opacity: 0;
+        transition: opacity .5s;
+    }
+    .overlay:hover{
+        opacity: 1;
+    }
+    .jumbotron-about{
+      
+            margin-top: 0;
+            margin-bottom: 0;
+            background: url('../images/edmonton.jpeg') no-repeat left ;
+            background-size: cover;
+            overflow: hidden;
+            padding-top: 400px;
+            color: white;    
+            text-align: center;  
+    }
+    #resume,
+    #instagram{
+        width: 40%;
+    }
+    .row,
+    .col,
+    .nav,
+    small{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+   
+}
+@media (min-width: 1024px){
+
+    .container-intro{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+    .jumbotron-intro h3{
+        padding-right: 20px;
+    }
+    #dedicated{
+        padding-left: 100px;
+    }
+    .gallery{
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+        margin-top: 5px;
+  
+      }
+    .intro{
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .insta{
+        height:400px;
+        width:400px;
+    }
+    
+   
+}
