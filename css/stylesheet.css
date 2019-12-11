@@ -246,10 +246,13 @@ ul .it-skills {
     
 }
 
-#project-button{
+#project-button,
+#project-btn,
+#projects-button,
+#project-buttons{
    color: #fff;
    background: transparent;
-   width: 50%;
+   width: 60%;
    font-weight: 700;
    display: block;
    text-decoration: none;
@@ -259,7 +262,10 @@ ul .it-skills {
    border-radius: .5em;
   
 }
-#project-button:hover{
+#project-button:hover,
+#project-btn:hover,
+#projects-button:hover,
+#project-buttons:hover{
     transition: 2s,ease-in-out;
     background: #fff;
     color: #000;
@@ -375,7 +381,7 @@ ul .it-skills {
     .container-gallery{
         margin-top: 45px;
         width: 100%;
-        background: url('../images/floor.jpg') no-repeat  ;	
+        background: url('../images/background-image1.jpg') no-repeat  ;	
     }
     .projects{
       
