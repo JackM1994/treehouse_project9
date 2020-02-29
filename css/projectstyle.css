@@ -159,6 +159,17 @@ html, body {
  .slide:nth-child(3) .slide__overlay-path {
 	 color: #000;
 }
+
+.slide:nth-child(4) {
+	left: 200%;
+}
+.slide:nth-child(4) .slide__bg {
+	left: -100%;
+	background: url('../images/employee_directory.png') no-repeat center;
+}
+.slide:nth-child(4) .slide__overlay-path {
+	color: #000;
+}
  @media (max-width: 359px) {
 	 .slide:nth-child(3) .slide__text {
          background-color: #DE0001;
