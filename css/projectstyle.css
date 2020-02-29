@@ -181,7 +181,7 @@ html, body {
          opacity: 0.6;
 	}
 }
-.slide:nth-child(5) {
+/* .slide:nth-child(5) {
 	left: 400%;
 }
 .slide:nth-child(5) .slide__bg {
@@ -196,7 +196,7 @@ html, body {
 		background-color:  #27231F;
 		opacity: 0.6;
    }
-}
+} */
  .slide__content {
 	 position: absolute;
 	 top: 0;
