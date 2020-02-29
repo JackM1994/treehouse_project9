@@ -122,7 +122,7 @@ html, body {
 }
  .slide:nth-child(1) .slide__bg {
 	 left: 0;
-	 background: url('../images/responsive-webpage.png') no-repeat center;
+	 background: url('../images/random_main.png') no-repeat center;
 }
  .slide:nth-child(1) .slide__overlay-path {
 	 color: #e99c7e;
