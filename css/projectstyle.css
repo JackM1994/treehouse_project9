@@ -181,6 +181,22 @@ html, body {
          opacity: 0.6;
 	}
 }
+.slide:nth-child(5) {
+	left: 300%;
+}
+.slide:nth-child(5) .slide__bg {
+	left: -150%;
+	background: url('../images/employee_directory.png') no-repeat center;
+}
+.slide:nth-child(5) .slide__overlay-path {
+	fill: #000;
+}
+@media (max-width: 359px) {
+	.slide:nth-child(5) .slide__text {
+		background-color:  #27231F;
+		opacity: 0.6;
+   }
+}
  .slide__content {
 	 position: absolute;
 	 top: 0;
