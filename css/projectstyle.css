@@ -154,7 +154,7 @@ html, body {
 }
  .slide:nth-child(3) .slide__bg {
 	 left: -100%;
-	 background: url('../images/form.png') no-repeat center;
+	 background: url('../images/form_main.png') no-repeat center;
 }
  .slide:nth-child(3) .slide__overlay-path {
 	 color: #000;
